@@ -12,6 +12,7 @@ ROS_INSTALL = " \
   urg-node \
   rosbag \
   mavros \
+  mavlink \
 "
 
 OPENCV_INSTALL = " \
