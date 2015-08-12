@@ -13,6 +13,8 @@ ROS_INSTALL = " \
   rosbag \
   mavros \
   mavlink \
+  mavproxy \
+  mavlink-socket \
 "
 
 OPENCV_INSTALL = " \
@@ -25,6 +27,8 @@ OPENCV_INSTALL = " \
 PYTHON_INSTALL = " \
   python-numpy \
   python-pyserial \
+  python-simplejson \
+  python-json \
 "
 
 NETWORK_INSTALL = " \
