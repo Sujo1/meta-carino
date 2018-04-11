@@ -14,11 +14,13 @@ IMAGE_ROOTFS_SIZE = "8192"
 
 TOOLCHAIN_HOST_TASK += "nativesdk-cmake"
 
-IMAGE_INSTALL += "roslaunch \
+IMAGE_INSTALL += " \
+	roslaunch \
 	mavros \
 	cmake \
 	vim \
 	urg-node \
 	hostapd \
 	ros-setup \
+	opencv \
 "
