@@ -1,0 +1,11 @@
+[Unit]
+Description=A startup script using to initialize and run ROS nodes when power is applied to the board
+After=systemd-networkd.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=no
+ExecStart=/bin/bash /usr/bin/init_ros.sh
+
+[Install]
+WantedBy=multi-user.target
